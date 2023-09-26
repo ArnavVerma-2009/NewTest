@@ -125,7 +125,7 @@ const Hero = () => {
                       to="https://discord.gg/QkDqt6fp"
                       className="mr-4  akira border-2 tracking-widest line text-sm  transition ease-in-out duration-[1s]  border-[#fff] rounded-full font-semibold px-4 py-2.5  text-white cursor-pointer hover:bg-[#f2ef58] hover:border-white hover:text-[#000] "
                     >
-                      BROHURE
+                      BROCHURE
                     </Link>   
                     <Link
                       to="https://chat.whatsapp.com/B7I8gUY5f1NHR7CSAADTuc"

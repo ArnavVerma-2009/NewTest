@@ -1,5 +1,6 @@
 import React from "react";
 import AOS from "aos";
+import { Link } from "react-router-dom";
 
 AOS.init();
 
@@ -21,9 +22,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            Each student is only allowed to participate in a single event,
-            except for Cryptic Hunt. Cryptic Hunt allows multiple students to
-            participate.
+            Each student is only allowed to participate in a offline event,
+            along with one online event.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -33,11 +33,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            All offline events will take place within the SRDAV school premises
-            on 26th October 2023.For online events and online prelims, the
-            submission deadline is 23rd October 2023. Be sure to submit your
-            entries within the specified timeframe for online events and
-            prelims.
+            Last date of submission for online events in 23<sup>rd</sup>October,
+            till midnight.
           </p>
         </li>
         <li className="ml-4 mb-10">
@@ -47,9 +44,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            Participants must strictly adhere to the scheduled timings for
-            creation and submission of their products. Extra time will not be
-            provided.
+            Date of prelims for every <b>hybrid</b> event is mentioned along
+            with the rules of that event.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -59,10 +55,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            Maintaining a fair and just competition is our priority. Any
-            instance of cheating in an event is strictly prohibited, and
-            participants found engaging in such activities will face immediate
-            disqualification.
+            All offline events will be conducted in the SRDAV public school on
+            26 Ocotber 2023.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -72,9 +66,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            Any deviation from the established rules will result in a single
-            warning. Subsequent deviations will lead to immediate
-            disqualification.
+            Participants who are found to have used any sort of unfair means
+            will be disqualified from participating.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -84,10 +77,15 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            Restricted areas, including the Primary Wing, Gym, Volleyball
-            Ground, and unallocated classrooms, are off-limits. Participants are
-            required to stay within their designated venues and sitting areas to
-            ensure a smooth competition experience.
+            For all the information, announcements and updates, follow our
+            instagram page{" "}
+            <Link
+              className="underline underline-offset-4"
+              href="https://www.instagram.com/u/wartex_srdav"
+            >
+              @wartex_srdav
+            </Link>
+            , discord & whatsapp community.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -97,10 +95,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            Our objective is to foster a spirit of fun and healthy competition.
-            We discourage the use of harsh language among participants, striving
-            for a friendly and welcoming environment for all. Let's make this a
-            memorable and enjoyable experience!
+            Participants need to report in the school premises before 9:00AM. No
+            late comers will be entertained.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -110,9 +106,8 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf mb-4 text-base font-normal text-gray-300 dark:text-black"
           >
-            Participants are allowed to bring electronic devices solely for
-            event-related purposes. Please refrain from bringing any devices
-            unrelated to the event you are participating i{" "}
+            Opening ceremony will take place on the school stage from 9:00AM to
+            9:30AM, The events will commence from 9:30AM.
           </p>
         </li>
         <li className="mb-10 ml-4">
@@ -122,8 +117,7 @@ export default function Guidelines() {
             data-aos-duration="750"
             className="sf text-base font-normal text-gray-300 dark:text-black"
           >
-            The school shall not be held responsible for any loss or breakage of
-            personal electronic devices brought by participants.{" "}
+            The prize distribution ceremony will take place at 1:00PM. Samjha kya be ?
           </p>
         </li>
         <li className="mb-10 ml-4">
